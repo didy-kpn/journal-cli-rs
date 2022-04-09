@@ -1,0 +1,16 @@
+[package]
+name = "journal-cli"
+version = "0.1.0"
+authors = ["Didy <9417799+didy-kpn@users.noreply.github.com>"]
+edition = "2018"
+repository = "https://github.com/didy-kpn/journal-cli-rs"
+license = "MIT"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+structopt = "0.3"
+chrono = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.8"
